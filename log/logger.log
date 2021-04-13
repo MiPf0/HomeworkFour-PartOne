@@ -3,3 +3,11 @@
 [main] INFO  org.lecture.SnailRaceDriverClass - All crawlers are entered by the user into an array list.
 [main] INFO  org.lecture.SnailRaceDriverClass - List of crawlers from user input finished.
 [main] INFO  org.lecture.SnailRaceDriverClass - Race is done.
+[main] ERROR org.lecture.SnailRaceDriverClass - User did not type (1) for snail/(2) for slug but something else - program exited (0).
+[main] INFO  org.lecture.SnailRaceDriverClass - All crawlers are entered by the user into an array list.
+[main] INFO  org.lecture.SnailRaceDriverClass - List of crawlers from user input finished.
+[main] INFO  org.lecture.SnailRaceDriverClass - Race is done.
+[main] ERROR org.lecture.SnailRaceDriverClass - User did not type (1) for snail/(2) for slug but something else - program exited (0).
+[main] INFO  org.lecture.SnailRaceDriverClass - All crawlers are entered by the user into an array list.
+[main] INFO  org.lecture.SnailRaceDriverClass - List of crawlers from user input finished.
+[main] INFO  org.lecture.SnailRaceDriverClass - Race is done.

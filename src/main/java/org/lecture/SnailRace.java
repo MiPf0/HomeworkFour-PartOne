@@ -99,7 +99,17 @@ public class SnailRace {
         if(fastestCrawlers.size()>1) {
             System.out.println("The winners are: ");
             for(Crawler crawler : fastestCrawlers) {
-                System.out.println(crawler.toString() + "\n");
+                System.out.println(crawler.toString());
+            }
+
+            ArrayList<Crawler> listWithoutWinners = crawlers;
+            for(Crawler crawler : fastestCrawlers) {
+                listWithoutWinners.remove(crawler);
+            }
+
+            System.out.println("\nPerformance of others:");
+            for(Crawler crawler : listWithoutWinners) {
+                System.out.println(crawler.toString());
             }
         } else {
             System.out.println("The winner is: " + getFastestCrawler(crawlers).toString() + "\n");
